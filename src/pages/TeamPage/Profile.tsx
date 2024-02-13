@@ -4,7 +4,7 @@ import { TeamProfile } from './ProfileInterface';
 export default function Profile(props: ProfileProps) {
     return (
         <div className={styles.profile}>
-            <div className={styles.gradient} />
+            <div className={styles.profileHeader} />
             <div className={styles.profileBody}>
                 <img 
                     src={props.profile.picture}
