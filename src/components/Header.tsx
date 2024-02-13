@@ -11,7 +11,7 @@ export default function Header() {
                 className={styles.elevateLogo}
                 alt="Elevate Logo: Three overlapping mountains are arranged over the word Elevate" 
             />
-            <RoutingBar />
+            <RoutingBar textColor={"white"}/>
         </div>
     );
 };

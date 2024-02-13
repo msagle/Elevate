@@ -6,7 +6,7 @@ import { profiles } from "../TeamPage/ProfileInterface";
 
 export default function TeamPage() {
     return (
-        <div>
+        <div className={styles.bodyTeamPage}>
             <h1>Meet the ELEVATE Team</h1>
             <div className={styles.teamMessageContainer}>
                 <p>
