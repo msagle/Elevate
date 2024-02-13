@@ -5,6 +5,8 @@
     flex-wrap: nowrap;
     align-items: center;
     gap: 10px;
+    position: relative;
+    bottom: 0;
 }
 
 
