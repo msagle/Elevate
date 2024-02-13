@@ -1,16 +1,14 @@
 import React from 'react';
 import styles from "./MissionPage.module.css"
 import foundersPhoto from "../../public/Founders_2023_nationals.jpg";
-import { Fieldset } from 'primereact/fieldset';
+
 
 export default function MissionPage() {
     return (
         <div className="card">
-             <Fieldset legend="Our Mission">
                 <p className="m-0">
                     To inspire, empower, and educate synchronized figure skaters by providing them with tools, knowledge, and support to achieve their goals and reach their full potential.
                 </p>
-            </Fieldset>
             <div className={styles.missionText}>
                 <img 
                     src={foundersPhoto}
