@@ -49,7 +49,6 @@
     margin-top: -75px;
     padding: 10px;
     background: rgb(54, 77, 206);
-    box-shadow: 0px 0px 5px black;
 }
 
 .profileName {
@@ -61,4 +60,16 @@
 .profileDescription {
     font-size: 18px;
     padding: 20px 20px;
+}
+
+@media (max-width: 1000px) {
+    .profileContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .profileContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
