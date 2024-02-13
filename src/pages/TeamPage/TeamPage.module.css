@@ -1,0 +1,63 @@
+.bodyTeamPage {
+    background: linear-gradient(to bottom, white, #91baff,#91baff, rgba(25, 49, 187, 0.5));
+}
+
+.teamMessageContainer {
+    margin: 30px;
+    background-color: rgb(51, 59, 104);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.profilesBody {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profileContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    max-width: 90vw; /* Optional: set a maximum width for the grid */
+}
+
+.profilesGridItem {
+    align-self: start; /* Align items at the top */
+    padding: 20px; /* Optional: add padding to grid items */
+}
+
+.profile{
+    margin: auto;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0px 0px 5px black;
+}
+
+.profileHeader{
+    background-image: white;
+    height: 145px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.profileBody img {
+    height: 300px;
+    border-radius: 200px;
+    margin-top: -75px;
+    padding: 10px;
+    background: rgb(54, 77, 206);
+}
+
+.profileName {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(51, 59, 104);
+}
+
+.profileDescription {
+    font-size: 18px;
+    padding: 20px 20px;
+}

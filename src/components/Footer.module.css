@@ -1,0 +1,17 @@
+.footerContainer {
+    background-color: rgb(225, 223, 224);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.elevateLogo {
+    height: 100px;
+}
+
+.credits {
+    color: rgb(90, 90, 90);
+}

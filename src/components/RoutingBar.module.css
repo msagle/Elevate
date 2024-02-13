@@ -4,9 +4,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
+    padding-right: 10px;
 };
 
-.link {
-    color: white;
-}
