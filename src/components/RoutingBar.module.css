@@ -4,9 +4,22 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
+    padding-right: 10px;
 };
 
-.link {
+
+a:link { 
     color: white;
+    text-decoration: none; 
+} 
+a:visited { 
+    text-decoration: none;   
+} 
+a:hover { 
+    text-decoration: none; 
+} 
+a:active { 
+    text-decoration: none; 
 }
+
