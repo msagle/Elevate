@@ -1,24 +1,62 @@
 .foundersPhoto {
     height: auto;
-    width: 45%;
+    width: 100%;
     clip-path: circle();
-    box-shadow: inset 0 0 0 15px black;
 }
 
-.missionText {
+.shadowWrap {
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+.accentTextColor {
+    color: rgb(38, 61, 192);
+}
+
+.missionBlockContainer {
+    margin: 30px;
+    background-color: rgb(51, 59, 104);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.missionFounderTextContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 80%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: auto;
+    gap: 5rem;
+}
+
+@media (max-width: 940px) {
+    .missionFounderTextContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.foundersIntroMessage {
+    justify-content: center;
+    color: rgb(38, 61, 192);
+}
+
+.messageDescriptionContainer {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 80%;
     margin: auto;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-
-    &:FoundersIntro {
-        flex-direction: row;
-        border: 15px solid black;
-    }
-
-    &:MessageText {
-        flex-direction: row;
-    }
 }
+
+.messageDescription {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    text-align: start;
+}
+
