@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import CampsPage from './pages/CampsPage/CampsPage';
 import HomePage from './pages/HomePage/HomePage';

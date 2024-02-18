@@ -1,0 +1,15 @@
+.faqContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.accordion {
+    width: 70%;
+    text-align: start;
+}
+

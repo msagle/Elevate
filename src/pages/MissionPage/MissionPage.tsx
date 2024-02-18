@@ -6,11 +6,10 @@ import foundersPhoto from "../../public/Founders_2023_nationals.jpg";
 export default function MissionPage() {
     return (
         <div className="card">
+            <br />
             <h1>Our Mission</h1>
             <div className={styles.missionBlockContainer}>
-                <p>
                     To inspire, empower, and educate synchronized figure skaters by providing them with tools, knowledge, and support to achieve their goals and reach their full potential.
-                </p>
             </div>
             <div className={styles.missionFounderTextContainer}>
                 <img 

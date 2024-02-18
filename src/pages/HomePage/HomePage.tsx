@@ -8,24 +8,16 @@ export default function HomePage() {
         <div>
             <div className={styles.marquee}>
                 <div className={styles.marqueeone}>
-                    <p>
-                        Registration for the 2024 ELEVATE Synchro Camp is now open! Come train with us July 12th to the 14th!
-                    </p>
+                    Registration for the 2024 ELEVATE Synchro Camp is now open! Come train with us July 12th to the 14th!
                 </div>
                 <div className={styles.marqueetwo}>
-                    <p>
-                        Registration for the 2024 ELEVATE Synchro Camp is now open! Come train with us July 12th to the 14th!
-                    </p>
+                    Registration for the 2024 ELEVATE Synchro Camp is now open! Come train with us July 12th to the 14th!
                 </div>
                 <div className={styles.marqueethree}>
-                    <p>
-                        Registration for the 2024 ELEVATE Synchro Camp is now open! Come train with us July 12th to the 14th!
-                    </p>
+                    Registration for the 2024 ELEVATE Synchro Camp is now open! Come train with us July 12th to the 14th!
                 </div>
                 <div className={styles.marqueefour}>
-                    <p>
-                        Registration for the 2024 ELEVATE Synchro Camp is now open! Come train with us July 12th to the 14th!
-                    </p>
+                    Registration for the 2024 ELEVATE Synchro Camp is now open! Come train with us July 12th to the 14th!
                 </div>
             </div>
 
