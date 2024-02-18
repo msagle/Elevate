@@ -8,28 +8,55 @@
     filter: drop-shadow(0px 0px 5px black);
 }
 
-.missionText {
+.accentTextColor {
+    color: rgb(38, 61, 192);
+}
+
+.missionBlockContainer {
+    margin: 30px;
+    background-color: rgb(51, 59, 104);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.missionFounderTextContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 80%;
-    justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     margin: auto;
     gap: 5rem;
-
-    &:FoundersIntro {
-        flex-direction: row;
-    }
-
-    &:MessageText {
-        flex-direction: row;
-    }
 }
 
-@media (max-width: 700px) {
-    .missionText {
+@media (max-width: 940px) {
+    .missionFounderTextContainer {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.foundersIntroMessage {
+    justify-content: center;
+    color: rgb(38, 61, 192);
+}
+
+.messageDescriptionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.messageDescription {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    text-align: start;
+}
+
