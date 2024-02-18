@@ -7,24 +7,21 @@ import TeamPage from './pages/TeamPage/TeamPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { PrimeReactProvider } from 'primereact/api';
 
 
 function App() {
   return (
     <div className="App">
-      <PrimeReactProvider>
-        <BrowserRouter>
-          <Header />
-          <Routes>
-            <Route path="/" element={<HomePage />}/>
-            <Route path="/mission" element={<MissionPage />}/>
-            <Route path="/team" element={<TeamPage />}/>
-            <Route path="/camps" element={<CampsPage />}/>
-          </Routes>
-          <Footer />
-      </BrowserRouter>
-    </PrimeReactProvider>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />}/>
+          <Route path="/mission" element={<MissionPage />}/>
+          <Route path="/team" element={<TeamPage />}/>
+          <Route path="/camps" element={<CampsPage />}/>
+        </Routes>
+        <Footer />
+    </BrowserRouter>
     </div>
   );
 }

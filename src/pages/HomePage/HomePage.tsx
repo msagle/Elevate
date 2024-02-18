@@ -2,7 +2,6 @@ import React from 'react';
 import styles from "./HomePage.module.css";
 import ThreeSkates from "../../public/three-skates.jpeg"
 import ElevateLogo from "../../public/elevate-logo.png"
-import "primereact/resources/themes/lara-light-indigo/theme.css";
 
 export default function HomePage() {
     return (
@@ -29,7 +28,7 @@ export default function HomePage() {
                     </p>
                 </div>
             </div>
-            
+
             <br />
             <br />
             <br />
