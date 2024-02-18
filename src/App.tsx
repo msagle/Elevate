@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import CampsPage from './pages/CampsPage/CampsPage';
 import HomePage from './pages/HomePage/HomePage';
 import MissionPage from './pages/MissionPage/MissionPage';
 import TeamPage from './pages/TeamPage/TeamPage';
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<HomePage />}/>
             <Route path="/mission" element={<MissionPage />}/>
             <Route path="/team" element={<TeamPage />}/>
+            <Route path="/camps" element={<CampsPage />}/>
           </Routes>
           <Footer />
       </BrowserRouter>
