@@ -4,7 +4,8 @@ import styles from './CampsPage.module.css';
 export default function FAQComponent() {
     return (
         <div className={styles.faqContainer}>
-            <h2>FAQs</h2>
+            <h2 className={styles.headerStyles}>FAQs</h2>
+            <br />
             <div className={styles.accordion}>
                 <Accordion alwaysOpen>
                     <Accordion.Item eventKey="0">

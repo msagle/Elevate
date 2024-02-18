@@ -21,12 +21,17 @@ export default function CampsPage() {
                     }
                 </Link>
             </div>
-            <h2>What to Expect</h2>
+            <br />
+            <h2 className={styles.headerStyles}>
+                What to Expect
+            </h2>
+            <br />
             <div className={styles.whatToExpectContainer}>
                 <div className={styles.whatToExpectInformationContainer}>
                     <p>
                         Skaters can expect each day to be filled with on-ice training, off-ice classes, and team building activities with Team USA athletes. Skaters will also have the opportunity to participate in Q&A sessions and learn from some of the best in the sport!
                     </p>
+                    <br />
                     <h4>
                         <strong>Class topics will include:</strong>
                     </h4>
@@ -41,6 +46,7 @@ export default function CampsPage() {
                         <div className={styles.topicBubble}>Flexibility</div>
                         <div className={styles.topicBubble}>Mental Training and Goal Setting</div>
                     </div>
+                    <br />
                     <br />
                     <p>
                             Check out our 2023 ELEVATE Synchro Camp recap to see how much fun we had last year!
