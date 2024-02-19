@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
 import styles from "./RoutingBar.module.css";
 
 export default function RoutingBar(props: RoutingBarProps) {
