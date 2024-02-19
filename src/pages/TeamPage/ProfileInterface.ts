@@ -55,14 +55,14 @@ export const profiles: TeamProfile[] = [
     {
         picture: Molly,
         name: "Molly McMahon",
-        description: "...",
+        description: "Molly McMahon is a first-year member of the Haydenettes.",
         team: "Haydenettes"
     },
     //Mikayla
     {
         picture: Mikayla,
         name: "Mikayla Sagle",
-        description: "Mikayla Sagle is a first year member of the Haydenettes, and previously skated with Hayden Select for two seasons. She's currently a senior at Northeastern University studying computer engineering and computer science. She made this website! Her favorite synchro memory was winning the first ever national title in the Elite 12 division at the 2023 U.S. Synchronized Skating Championships in Peoria, IL.",
+        description: "Mikayla Sagle is a first-year member of the Haydenettes, and previously skated with Hayden Select for two seasons. She's currently a senior at Northeastern University studying computer engineering and computer science. She made this website! Her favorite synchro memory was winning the first ever national title in the Elite 12 division at the 2023 U.S. Synchronized Skating Championships in Peoria, IL.",
         team: "Haydenettes"
     },
 ]
