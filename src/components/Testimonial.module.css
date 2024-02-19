@@ -1,0 +1,20 @@
+.testimonialCard {
+    margin: auto;
+    color: rgb(38, 61, 192);
+    background-color: rgb(173, 176, 191);
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+}
+
+.testimonialContainer {
+    margin: auto;
+    width:50%;
+    border-radius: 12px;
+    padding: 15px;
+    border: solid rgb(38, 61, 192) 2px;
+    background: linear-gradient(to bottom, white, rgba(25, 49, 187, 0.5));
+    box-shadow: 0 0 3px black;
+}

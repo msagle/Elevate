@@ -5,7 +5,7 @@ import foundersPhoto from "../../public/Founders_2023_nationals.jpg";
 
 export default function MissionPage() {
     return (
-        <div className="card">
+        <div>
             <br />
             <h1>Our Mission</h1>
             <div className={styles.missionBlockContainer}>

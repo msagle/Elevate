@@ -10,7 +10,7 @@ export default function Footer() {
                 className={styles.elevateLogo}
                 alt="Elevate Logo: Three overlapping mountains are arranged over the word Elevate"
             />
-            <RoutingBar textColor="rgb(51, 59, 104)"/>
+            <RoutingBar textColor="rgb(51, 59, 104)" footer={true}/>
             <div style={{"paddingBottom": "15px"}}>
                 &copy; Elevate Synchronized Skating 2023. All Rights Reserved
                 <br></br>

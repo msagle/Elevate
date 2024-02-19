@@ -1,49 +1,12 @@
-.imageSize {
-    width: 500px;
-    height: 400px;
+.bodyHomePage {
+    background: linear-gradient(to bottom, white, #e0e2e5,#91baff, rgba(25, 49, 187, 0.5));
 }
 
-.threeSkates {
-    color: black;
-};
+.messageText {
+    color: rgb(38, 61, 192);
+    margin-top: 5px;
+}
 
-.marquee {
-    width: 100%;
-    overflow: hidden;
-    position: relative; 
-  }
-
-.marquee .marqueeone{
-    animation: marquee 40s linear infinite
-  }
-  
-  .marquee .marqueetwo{
-    animation: marquee 40s linear 10s infinite 
-  }
-  
-  .marquee .marqueethree{
-    animation: marquee 40s linear 20s infinite
-  }
-  
-  .marquee .marqueefour{
-    animation: marquee 40s linear 30s infinite
-  }
-
-  /* even out the elements */
-.marquee div {
-    position: absolute;
-    width: 100%;
-    left: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #1c9dff;  
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-  }
-  
-  /* add delay at the end of animation so you dont start while another div is going */
-  @keyframes marquee {
-    0% { left: 100%; }
-    50% { left: -100%; }
-    100% {left: -100%}
-  }
+.elevateAnnouncement {
+    width: 65vw;
+}

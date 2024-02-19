@@ -1,11 +1,14 @@
 import Accordion from 'react-bootstrap/Accordion';
-import styles from './CampsPage.module.css';
+import styles from '../CampsPage.module.css';
 
 export default function FAQComponent() {
     return (
         <div className={styles.faqContainer}>
             <h2 className={styles.headerStyles}>FAQs</h2>
             <br />
+            <p>
+                Questions? Check out our FAQs below!
+            </p>
             <div className={styles.accordion}>
                 <Accordion alwaysOpen>
                     <Accordion.Item eventKey="0">
