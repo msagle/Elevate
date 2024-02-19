@@ -17,9 +17,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Marquee>
-                <div style={{color: "rgb(38, 61, 192)", marginTop: "5px"}}>
-                    <strong>Registration for the 2024 ELEVATE Synchro Camp is now open! Navigate to the "Camps" page to sign up! </strong>
-                </div>
+                <p style={{color: "rgb(38, 61, 192)", marginTop: "5px"}}>
+                    <strong>Registration for the 2024 ELEVATE Synchro Camp is now open! Navigate to the "Camps" page to sign up!</strong>&nbsp;
+                </p>
             </Marquee>
         <Routes>
           <Route path="/" element={<HomePage />}/>
