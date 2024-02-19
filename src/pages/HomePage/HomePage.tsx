@@ -30,7 +30,7 @@ export default function HomePage() {
                     </Link>
                 </div>
                  <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <InstagramEmbed url="https://www.instagram.com/p/C3YYWdKRzqe/" width={400}/>
+                    <InstagramEmbed url="https://www.instagram.com/p/C3YYWdKRzqe/" width={500}/>
                 </div>
             </div>
             {/* <br />
