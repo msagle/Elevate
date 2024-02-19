@@ -1,10 +1,10 @@
 import Laura from "../TeamPage/Headshots/LauraNicula24.jpg";
-import Brynn from "../TeamPage/Headshots/BrynnHeadshot.jpg";
+import Brynn from "../TeamPage/Headshots/BrynnHeadshotNew.jpg";
 import Maddie from "../TeamPage/Headshots/MaddieHeadshot.jpg"
 import Kyan from "../TeamPage/Headshots/KyanLaMear24.jpg";
 import Haley from "../TeamPage/Headshots/HaleyWeilbacher24.png";
 import Mikayla from "../TeamPage/Headshots/MikaylaSagle24.jpg";
-import Molly from "../TeamPage/Headshots/MollyMcMahon24.jpg";
+import Molly from "../TeamPage/Headshots/MollyHeadshot.jpg";
 
 export interface TeamProfile {
     picture: string;
@@ -62,7 +62,7 @@ export const profiles: TeamProfile[] = [
     {
         picture: Mikayla,
         name: "Mikayla Sagle",
-        description: "...",
+        description: "Mikayla Sagle is a first year member of the Haydenettes, and previously skated with Hayden Select for two seasons. She's currently a senior at Northeastern University studying computer engineering and computer science. She made this website! Her favorite synchro memory was winning the first ever national title in the Elite 12 division at the 2023 U.S. Synchronized Skating Championships in Peoria, IL.",
         team: "Haydenettes"
     },
 ]
