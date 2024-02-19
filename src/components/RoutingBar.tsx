@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaInstagram, FaFacebook } from "react-icons/fa";
 import styles from "./RoutingBar.module.css";
 
 export default function RoutingBar(props: RoutingBarProps) {
@@ -8,10 +9,19 @@ export default function RoutingBar(props: RoutingBarProps) {
             <Link to={"/mission"} style={{color: props.textColor, textDecoration: "none"}}>Mission</Link> 
             <Link to={"/team"} style={{color: props.textColor, textDecoration: "none"}}>Our Team</Link> 
             <Link to={"/camps"} style={{color: props.textColor, textDecoration: "none"}}>Camps</Link> 
+            {
+                props.footer? 
+                    <div className={styles.linkContainer}>
+                        <Link to={"https://www.instagram.com/elevatesynchro/"} style={{color: props.textColor, textDecoration: "none"}}><FaInstagram /></Link>
+                        <Link to={"https://www.facebook.com/elevatesynchro/"} style={{color: props.textColor, textDecoration: "none"}}><FaFacebook /></Link>
+                    </div>
+                    : <div />
+            }
         </div>
     );
 };
 
 export interface RoutingBarProps {
     textColor: string;
+    footer: boolean;
 }
