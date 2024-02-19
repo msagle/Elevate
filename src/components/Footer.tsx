@@ -15,8 +15,7 @@ export default function Footer() {
                 &copy; Elevate Synchronized Skating 2023. All Rights Reserved
                 <br></br>
                 <small className={styles.credits}>
-                    Site by Mikayla Sagle &nbsp;&nbsp; | &nbsp;&nbsp;Feature Photo Credits
-                    Elissa Kempisty
+                    Site by Mikayla Sagle
                 </small>
             </div>
         </div>
