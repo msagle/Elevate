@@ -2,7 +2,6 @@ import styles from "./Header.module.css"
 import elevateLogo from "../public/elevate-logo.png"
 import RoutingBar from "./RoutingBar";
 
-
 export default function Header() {
     return (
         <div className={styles.headerContainer}> 

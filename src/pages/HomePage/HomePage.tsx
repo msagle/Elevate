@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
-import Testimonial from '../../components/Testimonial'
-import Announcement from '../TeamPage/Headshots/elevate2024.png';
 import styles from './HomePage.module.css';
+import Announcement from '../../public/elevate-save-date-2024.png';
+import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import { InstagramEmbed } from 'react-social-media-embed';
+import Testimonial from '../../components/Testimonial'
 
 export default function HomePage() {
     return (
@@ -23,7 +23,7 @@ export default function HomePage() {
                     />
                     <Link to="/camps">
                     {
-                        <Button size={'lg'} style={{boxShadow: "0 0 5px black"}}>
+                        <Button size={'lg'} className={styles.registrationButton}>
                             Click for more info!
                         </Button>
                     }
