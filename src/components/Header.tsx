@@ -1,5 +1,5 @@
 import styles from "./Header.module.css"
-import elevateLogo from "../public/elevate-logo.png"
+import elevateLogo from "../public/elevate-logo-white.png"
 import RoutingBar from "./RoutingBar";
 
 
