@@ -55,7 +55,7 @@ export const profiles: TeamProfile[] = [
     {
         picture: Molly,
         name: "Molly McMahon",
-        description: "Molly McMahon is a first-year member of the Haydenettes.",
+        description: "Molly McMahon is a current member of the Haydenettes and has been a member of the DREAM program for the past five years. Before joining the Haydenettes, Molly skated as a member of Skyliners Senior for four seasons while pursuing her education at Quinnipiac University in Hamden, CT. Molly grew up in Fond du Lac, WI and spent twelve years with the Fond du Lac Blades organization, progressing from the Beginner to Junior teams. With a profound passion for synchronized skating, Molly finds joy in choreography, performance and the collaborative team dynamics that synchro brings to figure skating!",
         team: "Haydenettes"
     },
     //Mikayla
