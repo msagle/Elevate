@@ -8,3 +8,10 @@
     padding-right: 10px;
 }
 
+@media (max-width: 450px) {
+    .linkContainer {
+        font-size: 10pt;
+        padding-right: 5px;
+    }
+}
+
