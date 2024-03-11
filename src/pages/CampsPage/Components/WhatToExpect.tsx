@@ -10,27 +10,27 @@ export default function WhatToExpect() {
             <div className={styles.whatToExpectContainer}>
                 <div className={styles.whatToExpectInformationContainer}>
                     <p>
-                        Skaters can expect each day to be filled with on-ice training, off-ice classes, and team building activities with Team USA athletes. Skaters will also have the opportunity to participate in Q&A sessions and learn from some of the best in the sport!
-                    </p>
-                    <br />
-                    <h4>
-                        <strong>Class topics will include:</strong>
-                    </h4>
-
-                    <div className={styles.topicContainer}>
-                        <div className={styles.topicBubble}>Turns and Twizzles</div>
-                        <div className={styles.topicBubble}>Pair Tricks and Transitions</div>
-                        <div className={styles.topicBubble}>Stroking and Power</div>
-                        <div className={styles.topicBubble}>Q&A Sessions</div>
-                        <div className={styles.topicBubble}>Field Moves</div>
-                        <div className={styles.topicBubble}>Recovery</div>
-                        <div className={styles.topicBubble}>Flexibility</div>
-                        <div className={styles.topicBubble}>Mental Training and Goal Setting</div>
-                    </div>
-                    <br />
-                    <br />
-                    <p>
-                            Check out our 2023 ELEVATE Synchro Camp recap to see how much fun we had last year!
+                        This year, the camp is organized into three distinct groups to cater to skaters of varying skill level depending on group placement: 
+                        ASPIRE, Pre-Juvenile - Intermediate Skating Skills Levels, and Novice - Junior/Senior Skating Skills Levels. 
+                        The camp is two days long for both the Pre-Juvenile - Intermediate and Novice - Junior/Senior groups while the camp is only a 1/2 day experience for the ASPIRE group. 
+                        Below are the dates and times when each level will be taking place: 
+                        <br />
+                        <br />
+                        <strong>ASPIRE:</strong> Saturday, July 13th - 8:00AM - 12:30PM <br/>
+                        <strong>Pre-Juvenile - Intermediate Skating Skills Levels:</strong> Saturday, July 13th - 11:30AM-6:45PM & Sunday, July 14th - 9:00AM-3:00PM <br/>
+                        <strong>Novice - Junior/Senior Skating Skills Levels:</strong> Friday, July 12th - 2:00PM-7:30PM & Saturday, July 13th 9:15AM-6:00PM <br/>
+                        <br />
+                        The camp consists of a little over 13 hours of on- ice training for the latter two groups and 1.5 hours of on-ice training for the ASPIRE group. 
+                        On the ice, we will be working on various essential synchro skills like turns, twizzles, pair elements, and general skating skills. 
+                        In past camps, we have worked on artistry, dance, team building, stretching, learning judging system rules, and sports psychology during off-ice sessions.
+                        <br />
+                        <br />
+                        These are long hours, so we will be providing many allergy-friendly snacks throughout the camp. As of right now, 
+                        skaters must bring their own lunches to camp on Saturday and Sunday. The camp is not a sleep away camp. 
+                        <br />
+                        <br />
+                        We hope that these answer a few of the questions you may have about this year's camp. If you have any more questions or concerns, 
+                        please feel free to reach out via email at <strong>elevatesynchro@gmail.com</strong>!
                     </p>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>

@@ -3,6 +3,13 @@
     padding-left: 10px;
 }
 
+@media (max-width: 450px) {
+    .elevateLogo {
+        height: 80px;
+        padding-left: 5px;
+    }
+}
+
 .verticalBar {
     height: 70px;
     width: 1.5px;

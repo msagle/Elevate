@@ -9,12 +9,12 @@
 }
 
 .accentTextColor {
-    color: rgb(38, 61, 192);
+    color: rgba(0, 20, 137, 1.0);
 }
 
 .missionBlockContainer {
     margin: 30px;
-    background-color: rgb(51, 59, 104);
+    background-color: rgb(91, 108, 138);
     color: white;
     padding: 15px;
     border-radius: 8px;
@@ -40,7 +40,7 @@
 
 .foundersIntroMessage {
     justify-content: center;
-    color: rgb(38, 61, 192);
+    color: rgba(0, 20, 137, 1.0);
 }
 
 .messageDescriptionContainer {

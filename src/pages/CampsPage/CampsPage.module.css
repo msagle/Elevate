@@ -12,7 +12,7 @@
 
 .headerStyles {
     background: rgb(239, 239, 239); 
-    color: rgb(54, 116, 240); 
+    color: rgba(0, 20, 137, 1.0); 
     width: 100%;
     font-weight: bold;
     display: flex;
