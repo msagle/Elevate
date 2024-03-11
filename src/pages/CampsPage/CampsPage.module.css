@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: rgba(212, 240, 54, 0.7);
+    background-color: rgba(114, 195, 242, 0.7);
     padding: 20px;
     gap: 10px;
 }
@@ -25,8 +25,8 @@
 }
 
 .registrationButton {
-    background-color: #04AA6D; /* Green */
-    border-color: #04AA6D;
+    background-color: rgba(0, 20, 137, 1.0);
+    border-color: rgba(0, 20, 137, 1.0);
     border-radius: 12px;
     box-shadow: 0px 0px 5px black;
 }
