@@ -1,35 +1,5 @@
 # ELEVATE Synchronized Skating
 
-Repository for the ELEVATE Synchronized Skating website.
+Repository for the ELEVATE Synchronized Skating Camp website. ELEVATE is the premiere synchronized skating camp in the Midwest, allowing synchronized skating athletes of all ages and skill levels to train with Team USA athletes for the weekend.
 
-##
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+Sign up today! https://www.elevatesynchro.org/
