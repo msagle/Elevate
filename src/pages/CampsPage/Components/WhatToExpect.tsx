@@ -16,9 +16,9 @@ export default function WhatToExpect() {
                         Below are the dates and times when each level will be taking place: 
                         <br />
                         <br />
-                        <strong>ASPIRE:</strong> Saturday, July 13th - 8:00AM - 12:30PM <br/>
-                        <strong>Pre-Juvenile - Intermediate Skating Skills Levels:</strong> Saturday, July 13th - 11:30AM-6:45PM & Sunday, July 14th - 9:00AM-3:00PM <br/>
-                        <strong>Novice - Junior/Senior Skating Skills Levels:</strong> Friday, July 12th - 2:00PM-7:30PM & Saturday, July 13th 9:15AM-6:00PM <br/>
+                        <strong>ASPIRE - Pre-Juvenile:</strong> Saturday, July 13th - 8:00AM - 12:30PM <br/>
+                        <strong>Juvenile - Intermediate Skating Skills Levels:</strong> Saturday, July 13th - 11:30AM-6:45PM & Sunday, July 14th - 9:00AM-3:00PM <br/>
+                        <strong>Novice - Junior Skating Skills Levels:</strong> Friday, July 12th - 2:00PM-7:30PM & Saturday, July 13th 9:15AM-6:00PM <br/>
                         <br />
                         The camp consists of a little over 13 hours of on- ice training for the latter two groups and 1.5 hours of on-ice training for the ASPIRE group. 
                         On the ice, we will be working on various essential synchro skills like turns, twizzles, pair elements, and general skating skills. 
@@ -34,7 +34,7 @@ export default function WhatToExpect() {
                     </p>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <InstagramEmbed url="https://www.instagram.com/reel/CunuwY8Ok8v/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={350}/>
+                    <InstagramEmbed url="https://www.instagram.com/p/C4yh-2FxHa0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={350}/>
                 </div>
             </div>
         </div>
