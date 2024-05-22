@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./MissionPage.module.css"
-import foundersPhoto from "../../public/Founders_2023_nationals.jpg";
+import foundersPhoto from "../../../public/Founders_2023_nationals.jpg";
 
 
 export default function MissionPage() {

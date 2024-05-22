@@ -1,0 +1,16 @@
+.pageBody {
+    height: 100vh;
+    background-color: var(--white-ish);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.financialMessage {
+    width: 70%;
+    text-align: center; 
+}
+
+.financialMessage h1 {
+    color: var(--elevate-blue);
+}
