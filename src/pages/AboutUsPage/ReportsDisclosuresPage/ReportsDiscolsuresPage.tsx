@@ -19,7 +19,7 @@ export default function ReportsDisclosuresPage() {
                     Please check back soon to view our full financial disclosures, including annual reports, budget summaries, and other important fiscal information. We appreciate your patience and support as we finalize these documents.
                     <br />
                     <br />
-                    Thank you for your continued trust and commitment to our mission
+                    Thank you for your continued trust and commitment to our mission.
                 </p>
             </div>
             <div className={styles.financialDocRow}>

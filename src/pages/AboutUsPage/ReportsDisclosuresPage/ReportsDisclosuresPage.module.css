@@ -20,9 +20,16 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
-.financialDocColumn {
+.financialDocColumn a {
+    color: var(--light-blue);
+    text-decoration: none;
+}
 
+.financialDocColumn a:hover {
+    color: var(--elevate-blue);
+    transition: 0.25s;
+    text-decoration: none;
 }
