@@ -29,14 +29,14 @@ export default function HomePage() {
                         />
                         <Link to="/camps">
                         {
-                            <Button size={'lg'} style={{boxShadow: "0 0 5px black"}}>
+                            <Button size={'lg'} className={styles.registrationButton}>
                                 Click for more info!
                             </Button>
                         }
                         </Link>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <InstagramEmbed url="https://www.instagram.com/p/C3YYWdKRzqe/" width={350}/>
+                        <InstagramEmbed url="https://www.instagram.com/p/C3YYWdKRzqe/" width={340} height={630} id={styles["insta"]} />
                     </div>
                 </div>
                 {/* <br />
