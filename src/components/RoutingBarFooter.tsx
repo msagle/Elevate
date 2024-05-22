@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
-//import privacyPolicyPDF from "../../public/docs/PrivacyPolicy.pdf";
 import styles from "./RoutingBar.module.css";
 import pdf from "../types.s";
 
