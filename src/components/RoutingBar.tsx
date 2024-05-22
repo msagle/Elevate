@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./RoutingBar.module.css";
 
-export default function RoutingBar(props: RoutingBarProps) {
+export default function RoutingBar() {
     return (
         <div className={styles.linkContainer}>
             <Link to={"/"}><strong>Home</strong></Link> 
@@ -11,8 +11,3 @@ export default function RoutingBar(props: RoutingBarProps) {
         </div>
     );
 };
-
-export interface RoutingBarProps {
-    textColor: string;
-    footer: boolean;
-}

@@ -1,4 +1,4 @@
-.linkContainer {
+.linkContainer, .linkContainerFooter {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -14,8 +14,15 @@
     text-decoration: none;
 }
 
-.linkContainer a:hover {
-    color: rgb(117, 185, 245);
+.linkContainerFooter a {
+    color: rgb(51, 59, 104);
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+.linkContainer a:hover,
+.linkContainerFooter a:hover {
+    color: rgb(0, 20, 137);
     cursor: pointer;
 }
 
