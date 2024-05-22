@@ -8,6 +8,17 @@
     padding-right: 10px;
 }
 
+.linkContainer a {
+    color: white;
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+.linkContainer a:hover {
+    color: rgb(117, 185, 245);
+    cursor: pointer;
+}
+
 @media (max-width: 450px) {
     .linkContainer {
         font-size: 10pt;
