@@ -1,3 +1,17 @@
+:root {
+  --elevate-blue: rgb(0, 20, 137);
+  --light-blue: rgb(5, 142, 217);
+  --light-blue-fade: rgba(5, 142, 217, 0.4);
+  --white-ish: rgb(230, 230, 235);
+  --accent-color: rgb(163, 163, 168);
+  --accent-color-fade: rgba(163, 163, 168, 0.4);
+  --text-color: rgb(7, 17, 8);
+}
+
+body {
+  background-color: var(--white-ish);
+}
+
 .App {
   text-align: center;
 }

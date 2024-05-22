@@ -4,20 +4,17 @@ import RoutingBarFooter from "./RoutingBarFooter";
 
 export default function Footer() {
     return (
-       <div className={styles.footerContainer}>
+       <footer className={styles.footerContainer}>
             <img 
                 src={elevateLogo}
                 className={styles.elevateLogo}
                 alt="Elevate Logo: Three overlapping mountains are arranged over the word Elevate"
             />
-            <RoutingBarFooter/>
-            <div style={{"paddingBottom": "15px"}}>
-                &copy; Elevate Synchronized Skating 2024. All Rights Reserved
-                <br></br>
-                <small className={styles.credits}>
-                    Site by Mikayla Sagle
-                </small>
+            <div className={styles.footerText}>
+                <RoutingBarFooter/>
+                &copy; ELEVATE Synchronized Skating 2024, a 501(c)(3) not-for-profit corporation.
+                All Rights Reserved.
             </div>
-        </div>
+        </footer>
     );
 }

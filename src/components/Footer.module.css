@@ -1,17 +1,33 @@
 .footerContainer {
-    background-color: rgb(225, 223, 224);
+    background-color: var(--accent-color-fade);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    padding: 10px;
+    gap: 5px;
+    position: relative;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.footerText {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
     position: relative;
-    bottom: 0;
+    font-size: 0.75rem;
 }
 
 
 .elevateLogo {
-    height: 100px;
+    height: 55px;
 }
 
 .credits {

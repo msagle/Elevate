@@ -37,7 +37,7 @@ export default function WhatToExpect() {
                         </ul>
                     </p>
                     <div id={styles["insta"]}>
-                        <InstagramEmbed url="https://www.instagram.com/p/C4yh-2FxHa0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={350}/>
+                        <InstagramEmbed url="https://www.instagram.com/p/C4yh-2FxHa0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={320} height={530}/>
                     </div>
                 </div>
                 <div>
@@ -50,9 +50,6 @@ export default function WhatToExpect() {
                         These are long hours, so we will be providing many allergy-friendly snacks throughout the camp. As of right now, 
                         skaters must bring their own lunches to camp on Saturday and Sunday. The camp is not a sleep away camp. 
                         <br />
-                        <br />
-                        We hope that these answer a few of the questions you may have about this year's camp. If you have any more questions or concerns, 
-                        please feel free to reach out via email at <span><strong>elevatesynchro@gmail.com</strong></span>!
                     </p>
                 </div>
             </div>
