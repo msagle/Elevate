@@ -37,20 +37,6 @@ export const profiles: TeamProfile[] = [
         description: "Maddie Beery is a second-year member of the Skyliners Senior and a senior at Boston University's Questrom School of Business. Prior to moving to Boston, she lived in Glen Ellyn, IL and skated for the Starlights Synchronized Skating organization. Her favorite synchro memory is being part of the first Starlights Junior team to represent the U.S. at the 2019 Junior World Synchronized Skating Championships. Maddie's favorite elements to teach are Moves in the Field, especially spirals!",
         team: "Skyliners"
     },
-    //Kyan
-    {
-        picture: Kyan,
-        name: "Kyan LaMear",
-        description: "Kyan LaMear is a second year member of the Haydenettes, and previously skated for Saint Louis Synergy for eleven seasons, spending her last four on the Junior Team. She is a sophmore at Babson College. Her favorite synchro memory is from 2019, when she competed at the junior level for the first time in Anaheim, California. The twizzles and moves elements are some of her favorites to skate. A fun fact about her is that she has two guinea pigs!",
-        team: "Haydenettes"
-    },
-    //Haley
-    {
-        picture: Haley,
-        name: "Haley Weilbacher",
-        description: "Haley Weilbacher is a first-year member of Skyliners Senior. Formerly, she skated for Hayden Select and Lexettes, as well as Saint Louis Synergy for 12 seasons. She is currently a Senior at Northeastern University studying chemical engineering. Her favorite element is the twizzles, and her favorite synchro memory is winning her first national medal at the 2022 U.S. Synchronized Skating Championships in Colorado Springs, CO.",
-        team: "Hayden Select"
-    },
     //Molly
     {
         picture: Molly,
