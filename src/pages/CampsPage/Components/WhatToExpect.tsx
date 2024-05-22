@@ -34,7 +34,7 @@ export default function WhatToExpect() {
                     </p>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <InstagramEmbed url="https://www.instagram.com/reel/CunuwY8Ok8v/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={350}/>
+                    <InstagramEmbed url="https://www.instagram.com/p/C4yh-2FxHa0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={350}/>
                 </div>
             </div>
         </div>
