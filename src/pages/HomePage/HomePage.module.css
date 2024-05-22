@@ -1,9 +1,9 @@
 .bodyHomePage {
-    background: linear-gradient(to bottom, white, #e0e2e5,#91baff, rgba(25, 49, 187, 0.5));
+    background: linear-gradient(to bottom, var(--white-ish), var(--light-blue), var(--elevate-blue));
 }
 
 .messageText {
-    color: rgb(38, 61, 192);
+    color: var(--elevate-blue);
     margin-top: 5px;
 }
 

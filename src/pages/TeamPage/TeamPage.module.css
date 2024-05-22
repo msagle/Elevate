@@ -1,10 +1,10 @@
 .bodyTeamPage {
-    background: linear-gradient(to bottom, white, #91baff,#91baff, rgba(25, 49, 187, 0.5));
+    background: linear-gradient(to bottom, var(--white-ish), var(--light-blue), var(--light-blue), var(--elevate-blue));
 }
 
 .teamMessageContainer {
     margin: 30px;
-    background-color: rgba(114, 195, 242, 0.4);
+    background-color: var(--accent-color-fade);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 5px black;
@@ -32,12 +32,12 @@
 .profile{
     margin: auto;
     border-radius: 4px;
-    background: white;
+    background: var(--white-ish);
     box-shadow: 0px 0px 5px black;
 }
 
 .profileHeader{
-    background-image: white;
+    background-image: var(--white-ish);
     height: 145px;
     border-radius: 4px 4px 0px 0px;
 }
@@ -47,13 +47,13 @@
     border-radius: 200px;
     margin-top: -75px;
     padding: 10px;
-    background: rgba(0, 20, 137, 1.0);
+    background: var(--elevate-blue);
 }
 
 .profileName {
     font-size: 36px;
     font-weight: 600;
-    color: rgba(0, 20, 137, 1.0);
+    color:  var(--elevate-blue);
 }
 
 .profileDescription {

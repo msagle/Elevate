@@ -9,20 +9,20 @@
 }
 
 .linkContainer a {
-    color: white;
+    color: var(--white-ish);
     transition: 0.25s;
     text-decoration: none;
 }
 
 .linkContainerFooter a {
-    color: rgb(51, 59, 104);
+    color: var(--elevate-blue);
     transition: 0.25s;
     text-decoration: none;
 }
 
 .linkContainer a:hover,
 .linkContainerFooter a:hover {
-    color: rgb(117, 185, 245);
+    color: var(--light-blue);
     cursor: pointer;
 }
 

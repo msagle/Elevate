@@ -1,5 +1,5 @@
 .footerContainer {
-    background-color: rgb(225, 223, 224);
+    background-color: var(--accent-color-fade);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
