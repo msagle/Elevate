@@ -32,32 +32,50 @@
 }
 
 .whatToExpectContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 40px;
-    padding: 20px;
-    width: 95%;
-    margin: auto;
-}
-@media (max-width: 1150px) {
-    .whatToExpectContainer {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-
-.whatToExpectInformationContainer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    width: 95%;
+    margin: auto;
+}
+
+.whatToExpectInformationContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-content: flex-start;
     align-items: center;
+    margin: 30px;
+    padding: 20px;
+    border: .2rem solid rgb(0, 20, 137);
+    background-color: rgba(114, 195, 242, 0.4);
+}
+
+.whatToExpectInformationContainer p {
+    width: 50%;
+}
+
+.whatToExpectInformationContainer ul {
+    list-style-type: none;
+}
+
+.whatToExpectInformationContainer span {
+    color: rgb(0, 20, 137);
+}
+
+@media (max-width: 1150px) {
+    .whatToExpectInformationContainer {
+        flex-direction: column;
+        padding: 5px;
+        margin: 5px;
+    }
+    .whatToExpectInformationContainer p {
+        width: 100%;
+    }
 }
 
 .topicContainer {
