@@ -10,13 +10,10 @@ export default function Footer() {
                 className={styles.elevateLogo}
                 alt="Elevate Logo: Three overlapping mountains are arranged over the word Elevate"
             />
-            <RoutingBarFooter/>
-            <div style={{"paddingBottom": "15px"}}>
+            <div className={styles.footerText}>
+                <RoutingBarFooter/>
                 &copy; Elevate Synchronized Skating 2024. All Rights Reserved
                 <br></br>
-                <small className={styles.credits}>
-                    Site by Mikayla Sagle
-                </small>
             </div>
         </div>
     );
