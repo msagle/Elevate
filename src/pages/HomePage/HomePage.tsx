@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import Testimonial from '../../components/Testimonial'
 import Announcement from '../TeamPage/Headshots/elevate2024.png';
 import styles from './HomePage.module.css';
-import "/Users/mikaylasagle/Documents/VSCode/Elevate/src/App.css";
 import { Button } from 'react-bootstrap';
 import { InstagramEmbed } from 'react-social-media-embed';
 import { Helmet } from 'react-helmet'
