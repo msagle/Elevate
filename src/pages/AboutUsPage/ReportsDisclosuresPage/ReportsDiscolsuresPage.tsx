@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./ReportsDisclosuresPage.module.css"
 import pdf from "../../../types.s";
+import MissionMenu from '../MissionPage/MissionMenu';
 
 const FY2023TaxReturn = pdf("/docs/FY2023_Tax_Return.pdf");
 const designation501 = pdf("/docs/501(c)(3)_Designation_Letter.pdf");
@@ -9,6 +10,7 @@ const certIncorporation = pdf("/docs/Certificate_of_Incorporation.pdf");
 export default function ReportsDisclosuresPage() {
     return (
         <div className={styles.pageBody}>
+            <MissionMenu />
             <div className={styles.financialMessage}>
                 <br />
                 <h1>Financial Reports: Coming Soon!</h1>

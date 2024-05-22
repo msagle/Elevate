@@ -1,3 +1,29 @@
+.missionMenuContainer {
+    width: 100%;
+    height: 2.5rem;
+    background-color: var(--light-blue);
+    color: var(--light-blue);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-right: 10px;
+}
+
+.missionMenuContainer a:hover {
+    color: var(--white-ish);
+    text-decoration: none;
+}
+
+.missionMenuContainer a {
+    color: var(--elevate-blue);
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+
 .foundersPhoto {
     height: auto;
     width: 100%;

@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from "./MissionPage.module.css"
 import foundersPhoto from "../../../public/Founders_2023_nationals.jpg";
+import MissionMenu from './MissionMenu';
 
 
 export default function MissionPage() {
     return (
         <div>
+            <MissionMenu />
             <br />
             <h1>Our Mission</h1>
             <div className={styles.missionBlockContainer}>
