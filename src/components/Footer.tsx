@@ -4,7 +4,7 @@ import RoutingBarFooter from "./RoutingBarFooter";
 
 export default function Footer() {
     return (
-       <div className={styles.footerContainer}>
+       <footer className={styles.footerContainer}>
             <img 
                 src={elevateLogo}
                 className={styles.elevateLogo}
@@ -12,9 +12,9 @@ export default function Footer() {
             />
             <div className={styles.footerText}>
                 <RoutingBarFooter/>
-                &copy; Elevate Synchronized Skating 2024. All Rights Reserved
-                <br></br>
+                &copy; ELEVATE Synchronized Skating 2024, a 501(c)(3) not-for-profit corporation.
+                All Rights Reserved.
             </div>
-        </div>
+        </footer>
     );
 }
