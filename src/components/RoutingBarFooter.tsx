@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import styles from "./RoutingBar.module.css";
-import pdf from "../types.s";
 
-const privacyPDF = pdf("/docs/PrivacyPolicy.pdf");
+const privacyPolicy = "https://drive.google.com/file/d/1LwiHcFSBCj93Lm909axDVtoEewirSRfe/view?usp=sharing";
 
 export default function RoutingBarFooter() {
     return (
@@ -12,7 +11,7 @@ export default function RoutingBarFooter() {
             <Link to={"/mission"}><strong>About Us</strong></Link> 
             <Link to={"/team"}><strong>Our Team</strong></Link> 
             <Link to={"/camps"}><strong>Camps</strong></Link> 
-            <a href={privacyPDF} target="_blank"
+            <a href={privacyPolicy} target="_blank"
                     rel="noreferrer"> 
                     <strong>Privacy Policy</strong>
             </a>

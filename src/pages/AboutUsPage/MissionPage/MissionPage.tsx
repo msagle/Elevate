@@ -73,7 +73,9 @@ export default function MissionPage() {
                     <p>
                         Brynn, Laura, and the entire team are extremely excited for the future of this non-profit corporation. We are tirelessly working behind the scenes to release <strong>relevant, educational</strong> content and ensure that your skaters experience a <strong>high-quality, affordable</strong> synchronized skating training camp.
                     </p>
-                    <p />
+                    <p className={styles.accentTextColor}>
+                        <strong>In May of 2024, ELEVATE Synchronized Skating proudly received our official 501(c)(3) designation, solidifying our commitment to the synchronized skating community and enhancing our ability to provide valuable resources and opportunities.</strong>
+                    </p>
                 </div>
             </div>
         </div>

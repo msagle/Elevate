@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from "./ReportsDisclosuresPage.module.css"
-import pdf from "../../../types.s";
 import MissionMenu from '../MissionPage/MissionMenu';
 
-const FY2023TaxReturn = pdf("/docs/FY2023_Tax_Return.pdf");
-const designation501 = pdf("/docs/501(c)(3)_Designation_Letter.pdf");
-const certIncorporation = pdf("/docs/Certificate_of_Incorporation.pdf");
+const FY2023TaxReturn = "https://drive.google.com/file/d/1liDXXE6A3PzyPlXAU4PlbLSUKufPdMhQ/view?usp=sharing";
+const designation501c = "https://drive.google.com/file/d/1cdrwvMXWGYXWi7DRnssYGj3vciFWQFvo/view?usp=sharing";
+const certIncorporation = "https://drive.google.com/file/d/17GjA4l0PkfH6VcGr4VC-8tO3WHyvDUY8/view?usp=sharing";
 
 export default function ReportsDisclosuresPage() {
     return (
@@ -39,7 +38,7 @@ export default function ReportsDisclosuresPage() {
                     <h4>Regulatory Filings</h4>
                     <ul>
                         <li>
-                            <a href={designation501} target="_blank" rel="noreferrer"> 
+                            <a href={designation501c} target="_blank" rel="noreferrer"> 
                                 501(c)(3) Designation
                             </a>
                         </li>
