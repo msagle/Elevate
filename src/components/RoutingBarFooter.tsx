@@ -11,6 +11,7 @@ export default function RoutingBarFooter() {
             <Link to={"/mission"}><strong>About Us</strong></Link> 
             <Link to={"/team"}><strong>Our Team</strong></Link> 
             <Link to={"/camps"}><strong>Camps</strong></Link> 
+            <Link to={"/contact"}><strong>Contact Us</strong></Link> 
             <a href={privacyPolicy} target="_blank"
                     rel="noreferrer"> 
                     <strong>Privacy Policy</strong>
