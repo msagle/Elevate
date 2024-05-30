@@ -8,7 +8,7 @@ import useWeb3Forms from "@web3forms/react";
 export default function ContactUsPage() {
     const [result, setResult] = React.useState("");
 
-    const onSubmit = async (e: { preventDefault: () => void; target: HTMLFormElement | undefined; }) => {
+    const onSubmit = async (e: any) => {
       e.preventDefault();
       setResult("Sending....");
       const formData = new FormData(e.target);
@@ -37,17 +37,19 @@ export default function ContactUsPage() {
         <h1>Contact Us</h1>
         <br />
         <p className={styles.contactMessage}>
-            Please send us a message if you have questions or want more information about ELEVATE. Use the form below or email us directly at <strong>elevatesynchro@gmail.com</strong>.
+            Please send us a message if you have questions or want more information about ELEVATE Synchronized Skating.
+            Use the form below or email us directly at <strong>elevatesynchro@gmail.com</strong>.
         </p>
-        <form onSubmit={() => onSubmit}>
+        <form onSubmit={onSubmit}>
           <input type="text" name="name" placeholder='Full Name' required/>
           <input type="email" name="email" placeholder='Email' required/>
+          <input type="subject" name="subject" placeholder='Subject' required/>
           <textarea name="message" placeholder='Message' required></textarea>
   
           <button type="submit">Submit Form</button>
   
         </form>
-        <span>{result}</span>
+        <span className={styles.result}>{result}</span>
   
       </div>
     );

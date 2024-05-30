@@ -71,3 +71,7 @@
     color: var(--text-color);
     transition: 0.25s;
 }
+
+.result {
+    padding: 20px;
+}
