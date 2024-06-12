@@ -37,3 +37,24 @@
 .instructorInfo span {
     color: white;
 }
+
+@media (max-width: 700px) {
+    .instructorImage img {
+        width: 120px;
+        height: 120px;
+        margin-right: 0;
+    }
+
+    .instructorProfileContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 2%;
+        padding: 1.5rem;
+        height: 35vh;
+        width: 30vw;
+        gap: 5px;
+    }
+}
