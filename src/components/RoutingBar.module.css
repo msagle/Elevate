@@ -1,14 +1,49 @@
-.linkContainer, .linkContainerFooter {
+.linkContainer, .linkContainerMenu, .linkContainerFooter {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+    color: var(--white-ish);
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .linkContainerMenu {
+        flex-direction: column;
+        position: absolute;
+        top: 85px;
+        left: 0px;
+        width: 100%;
+        padding: 1rem 5%;
+        background: var(--elevate-blue);
+        justify-content: flex-start;
+        gap: 5px;
+        z-index: 10;
+    }
+
+    .linkContainerMenu a {
+        display: block;
+        margin: 1rem 0;
+        color: var(--white-ish);
+        transition: 0.25s;
+        text-decoration: none;
+    }
+
+    .linkContainerMenu a:hover {
+        cursor: pointer;
+        color: var(--light-blue);
+        transition: 0.5s;
+    }
+
+    .linkContainer {
+        display: none;
+    }
 }
 
 @media (max-width: 450px) {
-    .linkContainer, .linkContainerFooter {
+    .linkContainerFooter {
         justify-content: center;
         gap: 10px;
     }

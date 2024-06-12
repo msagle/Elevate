@@ -10,13 +10,6 @@
     }
 }
 
-.verticalBar {
-    height: 70px;
-    width: 1.5px;
-    background-color: black;
-    gap: 5px;
-}
-
 
 .headerContainer {
     width: 100%;
@@ -28,6 +21,19 @@
     align-items: center;
     background-color: var(--elevate-blue);
     padding: 4px 2.5%;
-    box-shadow: 0px 0px 10px black;
     gap: 15px;
+    color: white;
+}
+
+#menu-item {
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    display: none;
+}
+
+@media (max-width: 500px) {
+    #menu-item {
+        display: block;
+    }
 }
