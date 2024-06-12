@@ -16,6 +16,7 @@ export default function WhatToExpect() {
                             <li><strong><span>Juvenile to Intermediate Skating Skills Levels</span></strong></li>
                             <li><strong><span>Novice to Junior Skating Skills Levels</span></strong></li>
                         </ul>
+                        <br />
                         The camp is two days long for both the Juvenile - Intermediate and Novice - Junior groups while the camp is only a half day experience for the ASPIRE - Pre-Juvenile group. 
                         Below are the dates and times when each level will be taking place: 
                         <br />

@@ -39,6 +39,26 @@
 }
 
 @media (max-width: 1000px) {
+    .instructorProfileContainer {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .instructorImage img {
+        width: 110px;
+        height: 110px;
+        margin-right: 0;
+    }
+
+    .instructorProfileContainer {
+        width: 40vw;
+        gap: 5px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
     .instructorImage img {
         width: 120px;
         height: 120px;
@@ -46,15 +66,8 @@
     }
 
     .instructorProfileContainer {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: center;
-        margin: 2%;
-        padding: 1.5rem;
-        height: 33vh;
-        width: 40vw;
+        width: 80vw;
         gap: 5px;
+        margin-right: 0;
     }
 }
