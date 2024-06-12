@@ -7,7 +7,7 @@ import useWindowWidth from '../../../../hooks/useWindowWidth';
 export default function InstructorCarousel() {
     const width = useWindowWidth();
 
-    const instructorsPerPage = width < 1000 ? (width < 500 ? 1 : 2) : 3;
+    const instructorsPerPage = width < 1000 ? (width < 600 ? 1 : 2) : 3;
     const splitInstructors = (profiles: Instructors[], split: number) => {
         const chunks = [];
         for (let i = 0; i < profiles.length; i += split) {
