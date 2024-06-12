@@ -52,13 +52,6 @@
     align-items: center;
     align-content: center;
     padding: 20px;
-    margin: auto;
-}
-
-@media (max-width: 1150px) {
-    .campInfoContainer  {
-        grid-template-columns: repeat(1, 1fr);
-    }
 }
 
 .registrationButton {
@@ -87,8 +80,6 @@
     align-content: center;
     gap: 40px;
     padding: 20px;
-    width: 95%;
-    margin: auto;
 }
 
 #insta {
