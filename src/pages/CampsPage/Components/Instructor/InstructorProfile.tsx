@@ -27,8 +27,6 @@ export default function InstructorProfile(props: InstructorProfileProps) {
                    onHide={toggleBio}
                    aria-labelledby="contained-modal-title-vcenter"
                    centered>
-                <Modal.Header closeButton>
-                </Modal.Header>
                 <Modal.Body>
                     <div className={styles.bios}>
                         <img src={props.profile.bio} alt={props.profile.name + "Bio"} />
