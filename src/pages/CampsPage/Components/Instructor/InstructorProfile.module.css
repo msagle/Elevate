@@ -38,7 +38,7 @@
     color: white;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .instructorImage img {
         width: 120px;
         height: 120px;
@@ -53,8 +53,8 @@
         align-items: center;
         margin: 2%;
         padding: 1.5rem;
-        height: 35vh;
-        width: 30vw;
+        height: 33vh;
+        width: 40vw;
         gap: 5px;
     }
 }
