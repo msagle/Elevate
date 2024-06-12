@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import FAQ from './Components/FAQ';
 import WhatToExpect from './Components/WhatToExpect';
+import InstructorCarousel from './Components/Instructor/InstructorCarousel';
+
 
 export default function CampsPage() {
     return (
@@ -27,6 +29,7 @@ export default function CampsPage() {
             </div>
             <WhatToExpect />
             <FAQ />
+            <InstructorCarousel />
         </div>
         
     );
