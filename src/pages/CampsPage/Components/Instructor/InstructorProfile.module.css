@@ -21,6 +21,10 @@
     border: 3px solid white;
 }
 
+.bios img {
+    width: 100%;
+}
+
 .instructorInfo {
     display: flex;
     flex-direction: column;
