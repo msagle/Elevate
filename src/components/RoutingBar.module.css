@@ -5,7 +5,13 @@
     justify-content: space-between;
     align-items: center;
     gap: 15px;
-    padding-right: 10px;
+}
+
+@media (max-width: 450px) {
+    .linkContainer, .linkContainerFooter {
+        justify-content: center;
+        gap: 10px;
+    }
 }
 
 .linkContainer a {
