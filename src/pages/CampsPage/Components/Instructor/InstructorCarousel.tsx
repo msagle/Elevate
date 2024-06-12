@@ -2,9 +2,12 @@ import Carousel from 'react-bootstrap/Carousel';
 import styles from "./InstructorCarousel.module.css";
 import InstructorProfile from './InstructorProfile';
 import { Instructors, profiles } from './Instructors';
+import useWindowWidth from '../../../../hooks/useWindowWidth';
 
 export default function InstructorCarousel() {
-    const instructorsPerPage = 3;
+    const width = useWindowWidth();
+
+    const instructorsPerPage = width < 1000 ? 2 : 3;
     const splitInstructors = (profiles: Instructors[], split: number) => {
         const chunks = [];
         for (let i = 0; i < profiles.length; i += split) {

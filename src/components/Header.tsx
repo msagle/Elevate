@@ -1,9 +1,16 @@
 import styles from "./Header.module.css"
 import elevateLogo from "../public/elevate-logo-white.png"
 import RoutingBar from "./RoutingBar";
+import { useState } from 'react';
 
 
 export default function Header() {
+    const [displayDropdown, setDisplayDropdown] = useState<boolean>(false);
+
+    const handleOnClick = () => {
+        setDisplayDropdown(!displayDropdown);
+    };
+
     return (
         <div className={styles.headerContainer}> 
             <img 
@@ -11,7 +18,8 @@ export default function Header() {
                 className={styles.elevateLogo}
                 alt="Elevate Logo: Three overlapping mountains are arranged over the word Elevate" 
             />
-            <RoutingBar/>
+            <i className='bx bx-menu' id={styles['menu-item']} onClick={handleOnClick}></i>
+            <RoutingBar display={displayDropdown} setDisplay={setDisplayDropdown}/>
         </div>
     );
 };
