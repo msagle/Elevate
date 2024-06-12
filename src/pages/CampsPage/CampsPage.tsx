@@ -1,9 +1,10 @@
-import React from 'react';
 import styles from './CampsPage.module.css';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import FAQ from './Components/FAQ';
 import WhatToExpect from './Components/WhatToExpect';
+import InstructorCarousel from './Components/Instructor/InstructorCarousel';
+
 
 export default function CampsPage() {
     return (
@@ -26,6 +27,18 @@ export default function CampsPage() {
             <div> 
             </div>
             <WhatToExpect />
+            <div className={styles.instructorContainer}>
+                <br />
+                <br />
+                <h2 className={styles.headerStyles}>
+                    Meet Your Instructors
+                </h2>
+                <br />
+                <InstructorCarousel />
+                <br />
+                <br />
+            </div>
+            <br />
             <FAQ />
         </div>
         

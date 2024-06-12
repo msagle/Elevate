@@ -1,5 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import styles from '../CampsPage.module.css';
+import { Link } from 'react-router-dom';
 
 export default function FAQComponent() {
     return (
@@ -39,8 +40,8 @@ export default function FAQComponent() {
                 </Accordion>
             </div>
             <br />
-            <p>
-                If you have any more questions or concerns, please feel free to reach out via email at <span><strong>elevatesynchro@gmail.com</strong></span>!
+            <p className={styles.contactLink}>
+                If you have any more questions or concerns, please feel free to reach out to us using our <Link to={"/contact"}><strong>contact forum</strong></Link>  or email us at <span><strong>elevatesynchro@gmail.com</strong></span>!
             </p>
         </div>
         

@@ -128,3 +128,19 @@
     text-align: start;
     box-shadow: 0px 0px 5px black;
 }
+
+
+.contactLink a {
+    transition: 0.25s;
+    text-decoration: none;
+    color: black;
+}
+
+.contactLink a:hover {
+    color: var(--elevate-blue);
+    cursor: pointer;
+}
+
+.instructorContainer {
+    background: var(--elevate-blue-fade);
+}

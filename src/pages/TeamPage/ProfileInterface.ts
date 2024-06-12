@@ -1,8 +1,6 @@
 import Laura from "../TeamPage/Headshots/LauraNicula24.jpg";
 import Brynn from "../TeamPage/Headshots/BrynnHeadshotNew.jpg";
 import Maddie from "../TeamPage/Headshots/MaddieHeadshot.jpg"
-import Kyan from "../TeamPage/Headshots/KyanLaMear24.jpg";
-import Haley from "../TeamPage/Headshots/HaleyWeilbacher24.png";
 import Mikayla from "../TeamPage/Headshots/MikaylaSagle24.jpg";
 import Molly from "../TeamPage/Headshots/MollyHeadshot.jpg";
 
