@@ -140,3 +140,7 @@
     color: var(--elevate-blue);
     cursor: pointer;
 }
+
+.instructorContainer {
+    background: var(--elevate-blue-fade);
+}

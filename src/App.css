@@ -1,5 +1,6 @@
 :root {
   --elevate-blue: rgb(0, 20, 137);
+  --elevate-blue-fade: rgba(0, 20, 137, 0.90);
   --light-blue: rgb(5, 142, 217);
   --light-blue-fade: rgba(5, 142, 217, 0.4);
   --white-ish: rgb(230, 230, 235);

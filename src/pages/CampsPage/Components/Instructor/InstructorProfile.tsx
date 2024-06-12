@@ -18,7 +18,7 @@ export default function InstructorProfile(props: InstructorProfileProps) {
                     <img src={props.profile.picture} alt={props.profile.name} />
                 </div>
                 <div className={styles.instructorInfo}>
-                    <h3>{props.profile.name}</h3>
+                    <h3><span>{props.profile.name}</span></h3>
                     <h6>{props.profile.team}</h6>
                 </div>
             </div>
