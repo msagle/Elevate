@@ -45,14 +45,12 @@
 }
 
 .campInfoContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 40px;
     padding: 20px;
     margin: auto;
 }

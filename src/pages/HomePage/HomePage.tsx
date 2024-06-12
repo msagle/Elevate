@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Testimonial from '../../components/Testimonial'
-import Announcement from '../TeamPage/Headshots/elevate2024.png';
+import Announcement from './ELEVATE2024Poster.png';
 import styles from './HomePage.module.css';
 import { Button } from 'react-bootstrap';
 import { InstagramEmbed } from 'react-social-media-embed';
@@ -37,9 +37,6 @@ export default function HomePage() {
                                 </Button>
                             }
                             </Link>
-                        </div>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <InstagramEmbed url="https://www.instagram.com/p/C3YYWdKRzqe/" width={340} height={630} id={styles["insta"]} />
                         </div>
                     </div>
                     {/* <br />

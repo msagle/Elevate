@@ -37,7 +37,7 @@ export default function WhatToExpect() {
                         </ul>
                     </p>
                     <div id={styles["insta"]}>
-                        <InstagramEmbed url="https://www.instagram.com/p/C4yh-2FxHa0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" width={320} height={530}/>
+                        <InstagramEmbed url="https://www.instagram.com/p/C8FkoLSxLos/?img_index=3" width={320} height={530}/>
                     </div>
                 </div>
                 <div>
