@@ -18,7 +18,6 @@ export default function HomePage() {
                 <div className={styles.homeHeaders}>
                     <h1><strong>ELEVATE SYNCHRONIZED SKATING CAMP</strong></h1>
                     <h3>Dedicated to inspiring and educating the next generation of synchronized skaters</h3>
-                    <span className={styles.animate}></span>
                 </div>
                 <div className={styles.campInfoContainer}>
                         <div className={styles.saveTheDateContainer}>
