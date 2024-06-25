@@ -27,7 +27,7 @@ export default function ArticlesPage() {
             <h1>Lessons Learned from 5 Years on the Haydenettes with Maia Laats</h1>
             <div className={styles.imgWithCaption}>
                 <img src={MaiaPodium} alt={"Maia Laats on the World Podium"} />
-                <p><strong>Maia Laats representing the Haydenettes on the 2024 World Synchronized Skating Championship Podium.</strong></p>
+                <p>Maia Laats representing the Haydenettes on the 2024 World Synchronized Skating Championship Podium.</p>
             </div>
             <div className={styles.markdownContainer}>
                 <Markdown className={styles.markdown}>{postMarkdown}</Markdown>

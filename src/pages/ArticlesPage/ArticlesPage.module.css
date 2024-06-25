@@ -6,6 +6,7 @@
 
 .imgWithCaption {
     margin: auto;
+    color: var(--accent-color);
 }
 
 .imgWithCaption img {
@@ -36,8 +37,7 @@
 }
 
 blockquote { 
-    color: var(--light-blue);
-    color: #666;
+    color: var(--accent-color);
     margin-left: 3rem;
     padding: 1rem;
     border-left: 0.35em var(--elevate-blue) solid;
