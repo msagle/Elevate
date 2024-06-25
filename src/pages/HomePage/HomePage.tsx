@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import Testimonial from '../../components/Testimonial'
+//import Testimonial from '../../components/Testimonial'
 import Announcement from './ELEVATE2024Poster.png';
 import styles from './HomePage.module.css';
 import { Button } from 'react-bootstrap';
-import { InstagramEmbed } from 'react-social-media-embed';
+// import { InstagramEmbed } from 'react-social-media-embed';
 import { Helmet } from 'react-helmet'
 
 export default function HomePage() {

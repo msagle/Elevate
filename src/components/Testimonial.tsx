@@ -13,16 +13,6 @@ export default function Testimonial() {
                     oiuytrdfghjklkjhgfdfghjklkjhg fdcvhjklkjhgfdfgk
                 </h3>
               </Carousel.Item>
-              <Carousel.Item>
-                <h3 className={styles.testimonialCard}>
-                    cant wait for next year!
-                </h3>
-              </Carousel.Item>
-              <Carousel.Item>
-                <h3 className={styles.testimonialCard}>
-                  ya ya yaaaaa
-                </h3>
-              </Carousel.Item>
             </Carousel>
         </div>
     );

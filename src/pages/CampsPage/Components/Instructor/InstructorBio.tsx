@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-function InstructorBio() {
+export default function InstructorBio() {
   return (
     <Modal
       size="lg"
