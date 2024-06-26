@@ -24,6 +24,7 @@ export const articleList: Article[] = [
         markdownText: Maia,
         endImageGroup: [MaiaSplitLift, MaiaQuestMedals, MaiaSD],
     },
+/*
     //test article
     {
         articleId: "test_article",
@@ -33,5 +34,6 @@ export const articleList: Article[] = [
         markdownText: "### TEST!",
         endImageGroup: [MaiaSplitLift, MaiaQuestMedals, MaiaSD],
     }
+*/
 ]
 
