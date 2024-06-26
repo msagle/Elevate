@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import Markdown from 'react-markdown';
 import styles from "./ArticlesPage.module.css";
 import { Article, articleList } from './Articles/Articles';
@@ -32,6 +32,12 @@ export default function ArticleGenerator() {
 
     return ( article && 
         <div className={styles.articleContainer}>
+            <Link to="/articles" style={{ textDecoration: 'none' }}>
+                <div className={styles.backArrowDiv}>
+                    <i className='bx bx-chevron-left'></i>
+                    Back to Articles
+                </div>
+            </Link>
             <h1>{article.title}</h1>
             <div className={styles.imgWithCaption}>
                 <img src={article.titlePicture} alt={""}/>

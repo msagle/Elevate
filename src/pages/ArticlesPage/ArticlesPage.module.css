@@ -1,7 +1,36 @@
+.articleContainer {
+    text-decoration: none;
+}
+
 .articleContainer h1 {
     color: var(--elevate-blue);
     text-align: center;
     margin: 2rem;
+    margin-top: 0;
+}
+
+.backArrowDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    color: var(--elevate-blue);
+    text-align: start;
+    font-size: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.backArrowDiv a {
+    color: var(--elevate-blue);
+    transition: 0.25s;
+}
+
+.backArrowDiv:hover {
+    color: var(--light-blue);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .imgWithCaption {
