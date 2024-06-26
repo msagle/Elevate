@@ -20,14 +20,21 @@ export default function ArticleGenerator() {
     }, 
     [articleId]);
 
-    useEffect(() => { article &&
-        fetch(article.markdownText)
-            .then((response) => response.text())
+    useEffect(() => { article && fetch(article.markdownText)
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.text();
+            })
             .then((text) => {
                 setArticleMarkdown(text);
+            })
+            .catch((error) => {
+                console.error('Error fetching markdown:', error);
+                // Optionally, set a fallback or display an error message in your UI
             });
-        }, 
-    [article]);
+        }, [article]);
     
 
     return ( article ? 

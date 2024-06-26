@@ -10,7 +10,6 @@ export default function RoutingBarFooter() {
             <Link to={"/"}><strong>Home</strong></Link> 
             <Link to={"/mission"}><strong>About Us</strong></Link> 
             <Link to={"/camps"}><strong>Camps</strong></Link> 
-            <Link to="/aricles"><strong>Articles</strong></Link>
             <Link to={"/contact"}><strong>Contact Us</strong></Link> 
             <a href={privacyPolicy} target="_blank"
                     rel="noreferrer"> 
@@ -21,4 +20,4 @@ export default function RoutingBarFooter() {
         </div>
     );
 };
-
+///Users/mikaylasagle/Documents/VSCode/Elevate/build/static/media/LessonsLearned_MaiaLaats.e17893f40be1906a6642.md
