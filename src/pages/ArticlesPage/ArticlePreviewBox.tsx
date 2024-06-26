@@ -7,7 +7,9 @@ export default function ArticlePreviewBox(props: ArticlePreviewBoxProps) {
         <div className={styles.articlePreviewBoxContainer}>
             <img src={props.article.titlePicture} alt={"abc"} className={styles.cloudyImage}/>
             <Link to={`/articles/${props.article.articleId}`} style={{textDecoration: 'none'}}>
-                <h4>{props.article.title}</h4>
+                <div className={styles.articleTextBox}>
+                    <h4>{props.article.title}</h4>
+                </div>
             </Link>
         </div>
     );
