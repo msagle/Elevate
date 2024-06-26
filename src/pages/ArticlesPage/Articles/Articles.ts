@@ -21,7 +21,7 @@ export const articleList: Article[] = [
         title: "Lessons Learned from 5 Years on the Haydenettes with Maia Laats",
         titlePicture: MaiaPodium,
         titlePictureCaption: "Maia Laats representing the Haydenettes on the 2024 Synchronized Skating World Championship's Podium",
-        markdownText: "https://github.com/msagle/Elevate/blob/laura-requests/public/LessonsLearned_MaiaLaats.md",
+        markdownText: "/LessonsLearned_MaiaLaats.md",
         endImageGroup: [MaiaSplitLift, MaiaQuestMedals, MaiaSD],
     },
 /*
