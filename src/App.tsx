@@ -11,6 +11,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ArticlesPage from './pages/ArticlesPage/ArticlesPage';
+import ArticleGenerator from './pages/ArticlesPage/ArticleGenerator';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/reports" element={<ReportsDisclosuresPage />}/>
           <Route path="/camps" element={<CampsPage />}/>
           <Route path="/articles" element={<ArticlesPage />}/>
+          <Route path="/articles/:articleId" element={<ArticleGenerator />}/>
           <Route path="/contact" element={<ContactUsPage />}/>
         </Routes>
         <Footer />
