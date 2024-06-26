@@ -1,4 +1,4 @@
-import Maia from "./MaiaArticle/LessonsLearned_MaiaLaats.md";
+//import Maia from "../../../../public/LessonsLearned_MaiaLaats.md";
 import MaiaPodium from "./MaiaArticle/MaiaPictures/Maia_WorldsPodium.jpg";
 import MaiaSplitLift from "./MaiaArticle/MaiaPictures/Maia_SplitLift.jpg";
 import MaiaQuestMedals from "./MaiaArticle/MaiaPictures/Maia_QuestMedals.jpg";
@@ -21,7 +21,7 @@ export const articleList: Article[] = [
         title: "Lessons Learned from 5 Years on the Haydenettes with Maia Laats",
         titlePicture: MaiaPodium,
         titlePictureCaption: "Maia Laats representing the Haydenettes on the 2024 Synchronized Skating World Championship's Podium",
-        markdownText: Maia,
+        markdownText: "https://github.com/msagle/Elevate/blob/laura-requests/public/LessonsLearned_MaiaLaats.md",
         endImageGroup: [MaiaSplitLift, MaiaQuestMedals, MaiaSD],
     },
 /*

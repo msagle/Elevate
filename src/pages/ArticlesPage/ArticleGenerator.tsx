@@ -4,7 +4,7 @@ import Markdown from 'react-markdown';
 import styles from "./ArticlesPage.module.css";
 import { Article, articleList } from './Articles/Articles';
 
-import Maia from "./Articles/MaiaArticle/LessonsLearned_MaiaLaats.md";
+//import Maia from "../../../../public/LessonsLearned_MaiaLaats.md"
 
 function getArticle (param: string) {
     return (param === "5_lessons_maia_laats" ? articleList[0] : articleList[1]);
@@ -22,7 +22,7 @@ export default function ArticleGenerator() {
     }, 
     [articleId]);
 
-    useEffect(() => { article && fetch(Maia)
+    useEffect(() => { article && fetch(article.markdownText)
         .then((response) => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
