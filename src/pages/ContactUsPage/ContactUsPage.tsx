@@ -1,8 +1,5 @@
 import React from 'react';
 import styles from "./ContactUsPage.module.css";
-import { useState, useEffect } from "react";
-import { useForm } from "react-hook-form";
-import useWeb3Forms from "@web3forms/react";
 
 
 export default function ContactUsPage() {

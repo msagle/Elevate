@@ -45,11 +45,11 @@
 @media (max-width: 450px) {
     .linkContainerFooter {
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
     }
 }
 
-.linkContainer a {
+.linkContainer a, .linkContainerMenu a {
     color: var(--white-ish);
     transition: 0.25s;
     text-decoration: none;

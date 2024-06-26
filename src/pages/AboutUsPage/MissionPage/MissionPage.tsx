@@ -20,7 +20,7 @@ export default function MissionPage() {
                     alt="Elevate's founders, Brynn and Laura" 
                 />
                 <div className={styles.foundersIntroMessage}>
-                    <h1>&mdash; The Founders &mdash;</h1>
+                    <h1>The Founders</h1>
                     <p>
                         <strong>Co-founders Brynn LaMear and Laura Nicula had a dream: to represent Team USA
                                 Synchronized Skating at the senior level in college.
