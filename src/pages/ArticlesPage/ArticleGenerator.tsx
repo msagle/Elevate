@@ -30,8 +30,8 @@ export default function ArticleGenerator() {
     [article]);
     
 
-    return ( article && 
-        <div className={styles.articleContainer}>
+    return ( article ? 
+        <div className={styles.articleGenContainer}>
             <Link to="/articles" style={{ textDecoration: 'none' }}>
                 <div className={styles.backArrowDiv}>
                     <i className='bx bx-chevron-left'></i>
@@ -52,6 +52,8 @@ export default function ArticleGenerator() {
                 ))}
             </div>
         </div>
+        :
+        <div></div>
     );
 };
 

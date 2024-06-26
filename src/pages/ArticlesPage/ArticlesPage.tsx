@@ -1,16 +1,19 @@
 import { Link } from 'react-router-dom';
 import { articleList } from "./Articles/Articles";
+import styles from "./ArticlesPage.module.css"
+import ArticlePreviewBox from './ArticlePreviewBox';
 
 export default function ArticlesPage() {
     return (
-        <div>
-            <ul>
-                {articleList.map(({ articleId, title }) => (
-                    <li key={articleId}>
-                        <Link to={`/articles/${articleId}`}><strong>{title}</strong></Link>
-                    </li>
+        <div className={styles.articlePageContainer}>
+            <h1>ELEVATING the Voices of Synchro</h1>
+            <p>Check out some ELEVATE exclusive articles written by synchornized skaters for synchronized skaters!</p>
+            <br />
+            <div className={styles.articleBoxContainer}>
+                {articleList.map((art) => (
+                    <ArticlePreviewBox article={art}/>
                 ))}
-            </ul>
+            </div>
         </div>
     );
 }
