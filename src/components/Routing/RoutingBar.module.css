@@ -62,6 +62,7 @@
 }
 
 .linkContainer a:hover,
+.linkContainerMenu a:hover,
 .linkContainerFooter a:hover {
     color: var(--light-blue);
     cursor: pointer;

@@ -1,9 +1,12 @@
-import React from 'react';
 import styles from "./MissionPage.module.css"
 import foundersPhoto from "../../../public/Founders_2023_nationals.jpg";
 import MissionMenu from './MissionMenu';
 
-
+/**
+ * MissionPage component displays mission statement and picture of founders.
+ * 
+ * @returns {JSX.Element} The rendered component.
+ */
 export default function MissionPage() {
     return (
         <div>

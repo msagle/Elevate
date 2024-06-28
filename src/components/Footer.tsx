@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css"
 import elevateLogo from "../public/elevate-logo.png"
-import RoutingBarFooter from "./RoutingBarFooter";
+import RoutingBarFooter from "./Routing/RoutingBarFooter";
 
 export default function Footer() {
     return (

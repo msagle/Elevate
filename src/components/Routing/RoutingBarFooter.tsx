@@ -1,17 +1,16 @@
 import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import styles from "./RoutingBar.module.css";
+import { routes } from "./RoutingLinks";
 
 const privacyPolicy = "https://drive.google.com/file/d/1LwiHcFSBCj93Lm909axDVtoEewirSRfe/view?usp=sharing";
 
 export default function RoutingBarFooter() {
     return (
         <div className={styles.linkContainerFooter}>
-            <Link to={"/"}><strong>Home</strong></Link> 
-            <Link to={"/mission"}><strong>About Us</strong></Link> 
-            <Link to={"/camps"}><strong>Camps</strong></Link> 
-            <Link to={"/articles"}><strong>Articles</strong></Link> 
-            <Link to={"/contact"}><strong>Contact Us</strong></Link> 
+            {routes.map((r) => (
+                <Link key={r.id} to={r.route}><strong>{r.displayName}</strong></Link>
+            ))}
             <a href={privacyPolicy} target="_blank"
                     rel="noreferrer"> 
                     <strong>Privacy Policy</strong>
@@ -21,4 +20,3 @@ export default function RoutingBarFooter() {
         </div>
     );
 };
-///Users/mikaylasagle/Documents/VSCode/Elevate/build/static/media/LessonsLearned_MaiaLaats.e17893f40be1906a6642.md

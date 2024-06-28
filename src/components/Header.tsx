@@ -1,6 +1,6 @@
 import styles from "./Header.module.css"
 import elevateLogo from "../public/elevate-logo-white.png"
-import RoutingBar from "./RoutingBar";
+import RoutingBar from "./Routing/RoutingBar";
 import { useState } from 'react';
 
 
