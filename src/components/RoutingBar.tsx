@@ -13,6 +13,7 @@ export default function RoutingBar(props: RoutingBarProps) {
             <Link to="/" onClick={handleOnClick}><strong>Home</strong></Link>
             <Link to="/mission" onClick={handleOnClick}><strong>About Us</strong></Link>
             <Link to="/camps" onClick={handleOnClick}><strong>Camps</strong></Link>
+            <Link to="/articles" onClick={handleOnClick}><strong>Articles</strong></Link>
             <Link to="/contact" onClick={handleOnClick}><strong>Contact Us</strong></Link>
         </div>
     );
