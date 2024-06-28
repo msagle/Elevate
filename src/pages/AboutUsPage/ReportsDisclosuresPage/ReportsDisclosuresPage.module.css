@@ -1,5 +1,5 @@
 .pageBody {
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--white-ish);
     display: flex;
     flex-direction: column;
@@ -18,9 +18,14 @@
 .financialDocRow {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    margin-top: 100px;
+    margin: 1.5rem;
+}
+
+.financialDocColumn {
+    margin: 1.5rem;
 }
 
 .financialDocColumn a {
