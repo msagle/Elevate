@@ -6,7 +6,7 @@ export default function ArticlesPage() {
     return (
         <div className={styles.articlePageContainer}>
             <h1>ELEVATING the Voices of Synchro</h1>
-            <p>Check out some ELEVATE exclusive articles written by synchornized skaters for synchronized skaters!</p>
+            <p>Check out some ELEVATE exclusive articles written by synchronized skaters for synchronized skaters!</p>
             <div className={styles.articleBoxContainer}>
                 {articleList.map((art) => (
                     <ArticlePreviewBox article={art}/>
