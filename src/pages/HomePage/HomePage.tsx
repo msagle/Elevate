@@ -2,9 +2,13 @@ import { Link } from 'react-router-dom';
 //import Testimonial from '../../components/Testimonial'
 import Announcement from './ELEVATE2024Poster.png';
 import styles from './HomePage.module.css';
-import { Button } from 'react-bootstrap';
+import { Button, Row, Col } from 'react-bootstrap';
 import { InstagramEmbed } from 'react-social-media-embed';
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet';
+
+import Photo1 from "./HomePagePhotos/HomePage1_24.jpg";
+import Photo2 from "./HomePagePhotos/HomePage2_24.jpg";
+import Photo3 from "./HomePagePhotos/HomePage3_24.jpg";
 
 export default function HomePage() {
     const elevateBlue = getComputedStyle(document.documentElement).getPropertyValue('--elevate-blue');
@@ -26,7 +30,35 @@ export default function HomePage() {
                             {/* <h4 className={styles.messageText}>
                                 <strong>Registration for the 2024 ELEVATE Synchro Camp is now open!</strong>
                             </h4> */}
-                            <div></div>
+                            
+                            {/* Image Grid using React-Bootstrap */}
+                            <Row className="justify-content-center" style={{ padding: '20px' }}>
+                                <Col xs={12} sm={4} className="mb-3">
+                                    <img
+                                        src={Photo1}
+                                        alt="Coach Kristin giving instruction to campers"
+                                        className={styles.photo}
+                                        style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+                                    />
+                                </Col>
+                                <Col xs={12} sm={4} className="mb-3">
+                                    <img
+                                        src={Photo2}
+                                        alt="Four skaters enjoying themselves at ELEVATE Synchronized Skating Camp"
+                                        className={styles.photo}
+                                        style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+                                    />
+                                </Col>
+                                <Col xs={12} sm={4} className="mb-3">
+                                    <img
+                                        src={Photo3}
+                                        alt="Instructional on-ice time at ELEVATE Synchronized Skating Camp"
+                                        className={styles.photo}
+                                        style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+                                    />
+                                </Col>
+                            </Row>
+
                             <h4 className={styles.messageText}>
                                 <strong>Are YOU interested in becoming a part of the team behind ELEVATE synchro? Join us!</strong>
                             </h4>
