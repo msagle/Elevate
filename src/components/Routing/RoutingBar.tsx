@@ -11,7 +11,9 @@ export default function RoutingBar(props: RoutingBarProps) {
     return (
         <div className={props.display? styles.linkContainerMenu : styles.linkContainer}>
             {routes.map((r: RoutingLinks) => (
-                <Link key={r.id} to={r.route} onClick={handleOnClick}><strong>{r.displayName}</strong></Link>
+                <Link key={r.id} to={r.route} onClick={handleOnClick}>
+                    <strong className={r.displayName === "Donate" ? styles.donateText : styles.defaultText}>{r.displayName}</strong>
+                </Link>
             ))}
         </div>
     );
