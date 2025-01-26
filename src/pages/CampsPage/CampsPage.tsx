@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import FAQ from './Components/FAQ';
 import WhatToExpect from './Components/WhatToExpect';
 import InstructorCarousel from './Components/Instructor/InstructorCarousel';
+import RotatingPicturesCarousel from './Components/RotatingPictures/RotatingPicturesCarousel'
 
 
 export default function CampsPage() {
@@ -26,6 +27,8 @@ export default function CampsPage() {
             <br />
             <div> 
             </div>
+            <h4>Check out these awesome moments from our 2024 ELEVATE Synchronized Skating Camp!</h4>
+            <RotatingPicturesCarousel />
             {/* <WhatToExpect /> */}
             <div className={styles.instructorContainer}>
                 <br />
