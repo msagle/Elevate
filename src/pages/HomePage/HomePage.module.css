@@ -22,6 +22,20 @@
     background-color: var(--white-ish);
 }
 
+.internshipContainer {
+    display: inline;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: var(--light-blue-fade);
+    color: var(--elevate-blue);
+    padding: 20px;
+    gap: 10px;
+    width: 100%;
+}
+
 .campInfoContainer {
     display: flex;
     flex-direction: row;
@@ -29,7 +43,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 20px;
+    padding-bottom: 20px;
 }
 
 .registrationButton {
@@ -40,8 +54,7 @@
 }
 
 .messageText {
-    color: var(--elevate-blue);
-    margin-top: 5px;
+    width: 80%
 }
 
 .elevateAnnouncement {
@@ -56,8 +69,8 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 40px;
-    padding: 20px;
+    gap: 20px;
+    padding: 0px;
 }
 
 #insta {

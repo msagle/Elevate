@@ -3,6 +3,10 @@ import MaiaPodium from "./MaiaArticle/MaiaPictures/Maia_WorldsPodium.jpg";
 import MaiaSplitLift from "./MaiaArticle/MaiaPictures/Maia_SplitLift.jpg";
 import MaiaQuestMedals from "./MaiaArticle/MaiaPictures/Maia_QuestMedals.jpg";
 import MaiaSD from "./MaiaArticle/MaiaPictures/Maia_SweetDreams.jpg";
+import KyanBow from "./KyanArticle/KyanPictures/KyanImg1.jpg"
+import KyanSmile from "./KyanArticle/KyanPictures/KyanImg3.jpg"
+import KyanExtension from "./KyanArticle/KyanPictures/KyanImg2.jpg"
+import KyanElevate from "./KyanArticle/KyanPictures/KyanImg4.jpg"
 
 export interface Article {
     articleId: string;
@@ -15,7 +19,7 @@ export interface Article {
 
 // add all team members here!
 export const articleList: Article[] = [
-    //Maia article
+    // Maia article
     {
         articleId: "5_lessons_maia_laats",
         title: "Lessons Learned from 5 Years on the Haydenettes with Maia Laats",
@@ -24,16 +28,15 @@ export const articleList: Article[] = [
         markdownText: "/LessonsLearned_MaiaLaats.md",
         endImageGroup: [MaiaSplitLift, MaiaQuestMedals, MaiaSD],
     },
-/*
-    //test article
+    // Kyan Article
     {
-        articleId: "test_article",
-        title: "Test Article",
-        titlePicture: MaiaSplitLift,
-        titlePictureCaption: "this is a test!",
-        markdownText: "### TEST!",
-        endImageGroup: [MaiaSplitLift, MaiaQuestMedals, MaiaSD],
+        articleId: "embracing_challenges_kyan_lamear",
+        title: "Embracing Challenges and Growth: Kyan’s Journey So Far with the Haydenettes",
+        titlePicture: KyanBow,
+        titlePictureCaption: "Kyan LaMear taking a bow after the Haydenettes Short Program at the 2024 Budapest Cup",
+        markdownText: "/EmbracingChallenges_KyanLaMear.md",
+        endImageGroup: [KyanSmile, KyanExtension, KyanElevate],
     }
-*/
+
 ]
 

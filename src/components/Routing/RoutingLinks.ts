@@ -36,4 +36,10 @@ export const routes: RoutingLinks[] = [
         route: "/contact",
         displayName: "Contact",
     },
+    // Donate
+    {
+        id: 6,
+        route: "https://www.zeffy.com/en-US/donation-form/791156d3-0d63-4a93-ba26-46047892fb7a?_gl=1*opugvz*_up*MQ..",
+        displayName: "Donate"
+    }
 ];
