@@ -13,25 +13,25 @@ export default function CampsPage() {
             <h1>ELEVATE Synchronized Skating Camp 2024</h1>
             <br />
             <div className={styles.registrationContainer}>
-                <strong>Registration for the 2024 ELEVATE Synchro Camp is now live! Join us for 2 days of on-ice and off-ice training this July in Pleasant Prarie, WI!</strong>
-                <Link to="https://portal.campnetwork.com/Register/Register.php?camp_id=398038">
+                <strong>Registration for the 2025 ELEVATE Synchro Camp is not yet live. Please check back here for updates regarding our 2025 camp soon!</strong>
+                {/* <Link to="https://portal.campnetwork.com/Register/Register.php?camp_id=398038">
                     {
                         <Button size={'lg'} className={styles.registrationButton} >
                             REGISTER HERE!
                         </Button>
                     }
-                </Link>
+                </Link> */}
             </div>
             <br />
             <br />
             <div> 
             </div>
-            <WhatToExpect />
+            {/* <WhatToExpect /> */}
             <div className={styles.instructorContainer}>
                 <br />
                 <br />
                 <h2 className={styles.headerStyles}>
-                    Meet Your Instructors
+                    Meet the 2024 Camp Instructors
                 </h2>
                 <br />
                 <InstructorCarousel />
