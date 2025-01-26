@@ -59,10 +59,10 @@ export default function HomePage() {
                                 </Col>
                             </Row>
 
-                            <h4 className={styles.messageText}>
+                            <h4 className={styles.internshipContainer}>
                                 <strong>Are YOU interested in becoming a part of the team behind ELEVATE synchro? Join us!</strong>
                             </h4>
-                            <div className={styles.internshipContainer}>
+                            <div className={styles.messageText}>
                                 <strong>ELEVATE</strong> is looking for interns! If you are passionate about synchronized skating, interested in 
                                 working for ELEVATE, and are skilled in
                                 <strong style={{ color: elevateBlue }}> Event Planning</strong>, 
