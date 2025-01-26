@@ -25,7 +25,7 @@ export const articleList: Article[] = [
         title: "Lessons Learned from 5 Years on the Haydenettes with Maia Laats",
         titlePicture: MaiaPodium,
         titlePictureCaption: "Maia Laats representing the Haydenettes on the 2024 Synchronized Skating World Championship's Podium",
-        markdownText: "/LessonsLearned_MaiaLaats.md",
+        markdownText: "../../../public/LessonsLearned_MaiaLaats.md",
         endImageGroup: [MaiaSplitLift, MaiaQuestMedals, MaiaSD],
     },
     // Kyan Article
@@ -34,7 +34,7 @@ export const articleList: Article[] = [
         title: "Embracing Challenges and Growth: Kyan’s Journey So Far with the Haydenettes",
         titlePicture: KyanBow,
         titlePictureCaption: "Kyan LaMear taking a bow after the Haydenettes Short Program at the 2024 Budapest Cup",
-        markdownText: "/EmbracingChallenges_KyanLaMear.md",
+        markdownText: "../../../public/EmbracingChallenges_KyanLaMear.md",
         endImageGroup: [KyanSmile, KyanExtension, KyanElevate],
     }
 
