@@ -36,7 +36,7 @@ export default function HomePage() {
                                 <Col xs={12} sm={4} className="mb-3">
                                     <img
                                         src={Photo1}
-                                        alt="Coach Kristin giving instruction to campers"
+                                        alt="Coach Kristen giving instruction to campers"
                                         className={styles.photo}
                                         style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
                                     />
@@ -60,15 +60,15 @@ export default function HomePage() {
                             </Row>
 
                             <h4 className={styles.internshipContainer}>
-                                <strong>Are YOU interested in becoming a part of the team behind ELEVATE synchro? Join us!</strong>
+                                <strong>Are YOU interested in becoming a part of the team behind ELEVATE? Join us!</strong>
                             </h4>
                             <div className={styles.messageText}>
                                 <strong>ELEVATE</strong> is looking for interns! If you are passionate about synchronized skating, interested in 
                                 working for ELEVATE, and are skilled in
                                 <strong style={{ color: elevateBlue }}> Event Planning</strong>, 
                                 <strong style={{ color: elevateBlue }}> Social Media Marketing</strong>, or
-                                <strong style={{ color: elevateBlue }}> Accounting/Budgeting/Finance </strong>
-                                please consider applying for one of our internship positions
+                                <strong style={{ color: elevateBlue }}> Accounting, Budgeting & Finance </strong>
+                                please consider applying for one of our internship positions.
                             </div>
                             <Link to="https://docs.google.com/forms/d/e/1FAIpQLScBUYj4fWtcGudI4NjKO1RRmHMeX6Mru8R-mXeiwCWRwEA_9A/viewform">
                             {
