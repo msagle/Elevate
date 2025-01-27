@@ -12,7 +12,8 @@ By the age of four, Kyan explored synchronized skating, joining Saint Louis Syne
 Kyan’s ambition to join the Haydenettes was sparked by watching Laura, co-founder of ELEVATE Synchro and a skater she deeply admired, perform with the team. She recalls,
 > "Watching Laura skate with the Haydenettes was what inspired me to try out for Hayden Synchro." 
 
-The COVID-19 pandemic created uncertainty, but a pivotal moment came in 2021 when she witnessed a performance in California. By her junior year of college, Kyan was set in her decision to pursue this goal, driven by her dream to compete at the highest levels of synchronized skating. “Seeing them skate in California in 2021 made me realize that this is what I want to do. It made me realize that I really wanted to skate in college and–hopefully–on the Haydenettes,” she says.
+The COVID-19 pandemic created uncertainty, but a pivotal moment came in 2021 when she witnessed a performance in California. By her junior year of college, Kyan was set in her decision to pursue this goal, driven by her dream to compete at the highest levels of synchronized skating. 
+> “Seeing them skate in California in 2021 made me realize that this is what I want to do. It made me realize that I really wanted to skate in college and–hopefully–on the Haydenettes."
 
 ### Overcoming Transition Challenges
 
