@@ -4,8 +4,8 @@ import Markdown from 'react-markdown';
 import styles from "./ArticlesPage.module.css";
 import { Article, articleList } from './Articles/Articles';
 
-import Maia from "../ArticlesPage/Articles/MaiaArticle/LessonsLearned_MaiaLaats.md"; // This is still the URL
-import Kyan from "../ArticlesPage/Articles/KyanArticle/EmbracingChallenges_KyanLaMear.md";
+const Maia = "https://raw.githubusercontent.com/msagle/Elevate/refs/heads/main/public/LessonsLearned_MaiaLaats.md"; // This is still the URL
+const Kyan = "https://raw.githubusercontent.com/msagle/Elevate/refs/heads/main/public/EmbracingChallenges_KyanLaMear.md";
 
 function getArticle(param: string) {
     return param === "5_lessons_maia_laats" ? articleList[0] : articleList[1];
