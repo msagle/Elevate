@@ -9,6 +9,16 @@
     text-decoration: none;
 }
 
+.donateText {
+    color: var(--light-blue);
+}
+
+.donateText:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
 @media (max-width: 500px) {
     .linkContainerMenu {
         flex-direction: column;
@@ -74,4 +84,5 @@
         padding-right: 5px;
     }
 }
+
 
